@@ -1,0 +1,23 @@
+# Step 1: Node.js + JDK 17
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash && \
+source ~/.bashrc && \
+nvm install --lts && \
+sudo apt update && sudo apt install -y openjdk-17-jdk && \
+echo 'export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64' >> ~/.bashrc && \
+echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.bashrc && \
+source ~/.bashrc && \
+node -v && java -version
+
+# Step 2: Android SDK env vars (after installing Android Studio manually)
+echo 'export ANDROID_HOME=$HOME/Android/Sdk' >> ~/.bashrc
+echo 'export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools' >> ~/.bashrc
+source ~/.bashrc
+
+# Step 3: Create project (Expo - recommended)
+npx create-expo-app MyApp && cd MyApp
+
+# Or: React Native CLI
+npx @react-native-community/cli init MyApp && cd MyApp
+
+# Step 4: Run
+npx expo start
