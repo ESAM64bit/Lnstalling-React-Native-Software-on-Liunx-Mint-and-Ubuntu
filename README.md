@@ -61,11 +61,7 @@ npx expo start
 
 ### Contributing
 
-Found a mistake or want to improve the guide? Open an issue or submit a pull request.
-
-### Author
-
-Created by [ESAM64bit](https://github.com/ESAM64bit) and [Claude](https://claude.ai) (Anthropic).
+Created by [ESAM64bit](https://github.com/ESAM64bit).
 
 ---
 
@@ -103,8 +99,5 @@ Created by [ESAM64bit](https://github.com/ESAM64bit) and [Claude](https://claude
 
 ### المساهمة
 
-وجدت خطأ أو تريد تحسين الدليل؟ افتح Issue أو أرسل Pull Request.
+من إعداد [ESAM64bit](https://github.com/ESAM64bit)
 
-### المؤلف
-
-من إعداد [ESAM64bit](https://github.com/ESAM64bit) و[Claude](https://claude.ai) (Anthropic).
