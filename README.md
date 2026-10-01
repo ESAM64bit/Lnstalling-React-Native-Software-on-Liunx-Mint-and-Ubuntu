@@ -1,4 +1,4 @@
-# React Native Setup Guide on Linux Mint
+# React Native Setup Guide on Linux Mint and Ubuntu
 
 [English](#english) | [العربية](#العربية)
 
